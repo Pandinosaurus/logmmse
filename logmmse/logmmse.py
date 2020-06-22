@@ -35,7 +35,6 @@ def logmmse(x, Srate, noise_frames=6, Slen=0, eta=0.15, saved_params=None):
 
     aa = 0.98
     mu = 0.98
-    eta = 0.15
     ksi_min = 10 ** (-25 / 10)
 
     for k in range(0, Nframes*len2, len2):
